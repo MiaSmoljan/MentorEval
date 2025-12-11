@@ -1,8 +1,12 @@
 using MentorEval.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using QuestPDF.Infrastructure;
+using MentorEval.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+QuestPDF.Settings.License = LicenseType.Community;
+builder.Services.AddScoped<PdfService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

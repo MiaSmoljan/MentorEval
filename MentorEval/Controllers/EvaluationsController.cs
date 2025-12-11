@@ -32,8 +32,17 @@ namespace MentorEval.Controllers
                 .OrderByDescending(e => e.StartAt)
                 .ToListAsync();
 
+            var now = DateTime.Now;
+            int activeCount = evaluations
+                .Count(e => e.Status == "Active"
+                            && e.StartAt <= now
+                            && e.EndAt >= now);
+
+            ViewBag.ActiveEvaluationsCount = activeCount;
+
             return View(evaluations);
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Create()

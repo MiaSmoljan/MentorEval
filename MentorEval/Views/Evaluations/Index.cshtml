@@ -2,15 +2,30 @@
 
 @{
     ViewData["Title"] = "Evaluations";
+    var activeCount = ViewBag.ActiveEvaluationsCount as int? ?? 0;
 }
 
-<div class="card">
-    <div class="card-header d-flex justify-content-between align-items-center">
+<div class="card-header d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center gap-3">
         <h4 class="mb-0">Available evaluations</h4>
+        <span class="badge bg-success">
+            Active: @activeCount
+        </span>
+    </div>
+
+    <div class="d-flex gap-2">
+        <a asp-controller="Reports"
+           asp-action="ProfessorEvaluations"
+           class="btn btn-outline-secondary">
+            Download PDF
+        </a>
+
         <a asp-action="Create" class="btn btn-primary">
             Create evaluation!
         </a>
     </div>
+</div>
+
 
     <div class="card-body p-0">
         @if (!Model.Any())
