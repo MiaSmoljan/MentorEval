@@ -4,11 +4,18 @@ using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
 using MentorEval.Services;
 using MentorEval.Services.Evaluations;
+using MentorEval.Services.Evaluations.Questions;
 
 var builder = WebApplication.CreateBuilder(args);
 QuestPDF.Settings.License = LicenseType.Community;
 builder.Services.AddScoped<PdfService>();
 builder.Services.AddScoped<IEvaluationCreationService, EvaluationCreationService>();
+
+builder.Services.AddScoped<IQuestionFactory, QuestionFactory>();
+builder.Services.AddScoped<IQuestionHandler, Scale10QuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, YesNoQuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, TextQuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, DropdownQuestionHandler>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
