@@ -87,7 +87,7 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script>
-        document.getElementById('add-question').addEventListener('click', function () {
+                document.getElementById('add-question').addEventListener('click', function () {
             const container = document.getElementById('questions-container');
             const index = container.querySelectorAll('.question-row').length;
 
@@ -109,8 +109,15 @@
                         </select>
                     </div>
                     <div class="col-md-3 mb-2 d-flex align-items-center">
-                        <input type="checkbox" class="form-check-input me-2"
-                               name="Questions[${index}].Required" checked />
+                        <!-- hidden false, pa checkbox true – isto kao što MVC generira -->
+                        <input type="hidden"
+                               name="Questions[${index}].Required"
+                               value="false" />
+                        <input type="checkbox"
+                               class="form-check-input me-2"
+                               name="Questions[${index}].Required"
+                               value="true"
+                               checked />
                         <label class="form-check-label">Required</label>
                     </div>
                 </div>`;

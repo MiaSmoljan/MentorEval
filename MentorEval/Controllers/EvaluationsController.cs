@@ -1,4 +1,5 @@
 ﻿using MentorEval.Models;
+using MentorEval.Services.Evaluations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,14 @@ namespace MentorEval.Controllers
     {
         private readonly AppDbContext _context;
 
-        public EvaluationsController(AppDbContext context)
+        private readonly IEvaluationCreationService _creation;
+
+        public EvaluationsController(AppDbContext context, IEvaluationCreationService creation)
         {
             _context = context;
+            _creation = creation;
         }
+
 
         private int GetCurrentProfessorId()
         {
@@ -104,7 +109,7 @@ namespace MentorEval.Controllers
             }
 
             _context.Evaluations.Add(eval);
-            await _context.SaveChangesAsync();
+            await _creation.CreateAsync(profId, vm);
 
             return RedirectToAction(nameof(Index));
         }
