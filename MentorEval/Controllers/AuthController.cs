@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using MentorEval.Models;
 using System.Security.Claims;
 
+//dotnet ef dbcontext scaffold "Server=.;Database=MentorEvalDb;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -o Models --context AppDbContext --force
+
+
 namespace MentorEval.Controllers
 {
     public class AuthController : Controller
@@ -76,7 +79,7 @@ namespace MentorEval.Controllers
             var user = new User
             {
                 Username = username,
-                PasswordHash = password, // TODO: hashirati lozinku
+                PasswordHash = password, 
                 FullName = fullName,
                 Role = role ?? "Student",
                 Discriminator = role ?? "Student"

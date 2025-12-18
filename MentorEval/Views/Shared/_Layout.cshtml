@@ -52,7 +52,12 @@
                     {
                         <li class="nav-item me-2 d-flex align-items-center text-light">
                             Role: @(User.IsInRole("Professor") ? "Professor" : "User")
-                            &nbsp; — &nbsp; @User.Identity!.Name
+                        </li>
+                        <!-- PROFIL LINK -->
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Profile" asp-action="Index">
+                                👤 @User.Identity!.Name
+                            </a>
                         </li>
                         <li class="nav-item">
                             <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline">
