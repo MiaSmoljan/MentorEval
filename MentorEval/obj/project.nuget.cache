@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uoc/b5oRa4Y=",
+  "dgSpecHash": "QQipELGYNMg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval\\MentorEval.csproj",
+  "projectFilePath": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krajancic Ivan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Krajancic Ivan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

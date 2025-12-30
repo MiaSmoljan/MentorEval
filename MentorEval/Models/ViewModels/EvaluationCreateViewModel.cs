@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MentorEval.Models
+namespace MentorEval.Models.ViewModels
 {
     public class EvaluationCreateViewModel
     {
@@ -21,7 +21,7 @@ namespace MentorEval.Models
         public DateTime EndAt { get; set; } = DateTime.Today.AddDays(7);
 
         public List<QuestionCreateViewModel> Questions { get; set; } = new();
-        public List<Course> AvailableCourses { get; set; } = new(); 
+        public List<CourseOption> AvailableCourses { get; set; } = new(); 
     }
 
     public class QuestionCreateViewModel

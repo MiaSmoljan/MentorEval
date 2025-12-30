@@ -1,4 +1,6 @@
 ﻿using MentorEval.Models;
+using MentorEval.Models.ViewModels;
+using MentorEval.Services.Evaluations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +13,15 @@ namespace MentorEval.Controllers
     {
         private readonly AppDbContext _context;
 
-        public EvaluationsController(AppDbContext context)
+        private readonly IEvaluationCreationService _creation;
+
+        private readonly EvaluationFacade _facade;
+        public EvaluationsController(AppDbContext context, EvaluationFacade facade)
         {
             _context = context;
+            _facade = facade;
         }
+
 
         private int GetCurrentProfessorId()
         {
@@ -48,21 +55,12 @@ namespace MentorEval.Controllers
         public async Task<IActionResult> Create()
         {
             int profId = GetCurrentProfessorId();
-
-            var courses = await _context.Courses
-                .Where(c => c.ProfessorId == profId)
-                .ToListAsync();
+            var courses = await _facade.GetProfessorCoursesAsync(profId);
 
             var vm = new EvaluationCreateViewModel
             {
-                AvailableCourses = courses,
-                StartAt = DateTime.Today,
-                EndAt = DateTime.Today.AddDays(7),
-                Questions = new List<QuestionCreateViewModel>
-                {
-                    new QuestionCreateViewModel { Text = "", Type = "Scale10", Required = true },
-                    new QuestionCreateViewModel { Text = "", Type = "Text", Required = false }
-                }
+                AvailableCourses = courses.Select(c => new CourseOption { Id = c.Id, Name = c.Name }).ToList(),
+                Questions = new List<QuestionCreateViewModel>()
             };
 
             return View(vm);
@@ -76,36 +74,12 @@ namespace MentorEval.Controllers
 
             if (!ModelState.IsValid)
             {
-                vm.AvailableCourses = await _context.Courses
-                    .Where(c => c.ProfessorId == profId)
-                    .ToListAsync();
+                var courses = await _facade.GetProfessorCoursesAsync(profId);
+                vm.AvailableCourses = courses.Select(c => new CourseOption { Id = c.Id, Name = c.Name }).ToList();
                 return View(vm);
             }
 
-            var eval = new Evaluation
-            {
-                Title = vm.Title,
-                CourseId = vm.CourseId,
-                StartAt = vm.StartAt,
-                EndAt = vm.EndAt,
-                Status = "Active"
-            };
-
-            foreach (var q in vm.Questions)
-            {
-                if (string.IsNullOrWhiteSpace(q.Text)) continue;
-
-                eval.Questions.Add(new Question
-                {
-                    Text = q.Text,
-                    Type = q.Type,
-                    Required = q.Required
-                });
-            }
-
-            _context.Evaluations.Add(eval);
-            await _context.SaveChangesAsync();
-
+            await _facade.CreateEvaluationAsync(profId, vm);
             return RedirectToAction(nameof(Index));
         }
     }

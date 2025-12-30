@@ -1,12 +1,38 @@
 using MentorEval.Models;
+using MentorEval.Services;
+using MentorEval.Services.Evaluations;
+using MentorEval.Services.Evaluations.Questions;
+using MentorEval.Services.Evaluations.Validation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
-using MentorEval.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 QuestPDF.Settings.License = LicenseType.Community;
 builder.Services.AddScoped<PdfService>();
+
+builder.Services.AddScoped<IQuestionFactory, QuestionFactory>();
+builder.Services.AddScoped<IQuestionHandler, Scale10QuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, YesNoQuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, TextQuestionHandler>();
+builder.Services.AddScoped<IQuestionHandler, DropdownQuestionHandler>();
+
+
+
+builder.Services.AddScoped<EvaluationFacade>();
+
+builder.Services.AddScoped<ICourseQueryService, CourseQueryService>();
+builder.Services.AddScoped<IEvaluationCreationService, EvaluationCreationService>();
+
+builder.Services.AddScoped<IQuestionFactory, QuestionFactory>();
+
+builder.Services.AddScoped<QuestionValidationResolver>();
+builder.Services.AddScoped<IQuestionValidationStrategy, Scale10ValidationStrategy>();
+builder.Services.AddScoped<IQuestionValidationStrategy, YesNoValidationStrategy>();
+builder.Services.AddScoped<IQuestionValidationStrategy, TextValidationStrategy>();
+builder.Services.AddScoped<IQuestionValidationStrategy, DropdownValidationStrategy>();
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -21,7 +47,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/Auth/Login";
         options.LogoutPath = "/Auth/Logout";
-});
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
