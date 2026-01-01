@@ -2,16 +2,17 @@
 using Microsoft.AspNetCore.Mvc;
 using MentorEval.Interfaces;
 using MentorEval.ViewModels;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Identity;
 using MentorEval.Services;
+using MentorEval.Services.TokenStrategies;
+using System.Security.Claims;
 
 namespace MentorEval.Controllers
 {
-    [Authorize] 
+    [Authorize]
     public class ProfileController : Controller
     {
-        private readonly IUserService _userService; 
+
+        private readonly IUserService _userService;
         private readonly IPasswordService _passwordService;
 
         public ProfileController(IUserService userService, IPasswordService passwordService)
@@ -23,6 +24,8 @@ namespace MentorEval.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+
+
             var user = await _userService.GetUserByIdAsync(userId);
 
             if (user == null)
@@ -56,14 +59,15 @@ namespace MentorEval.Controllers
             }
 
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+
             var user = await _userService.GetUserByIdAsync(userId);
 
             if (user == null)
             {
                 return RedirectToAction("Login", "Auth");
             }
-            
-            if (user.PasswordHash != model.CurrentPassword) 
+
+            if (user.PasswordHash != model.CurrentPassword)
             {
                 ModelState.AddModelError("CurrentPassword", "Trenutna lozinka nije ispravna");
                 return View(model);
@@ -76,6 +80,7 @@ namespace MentorEval.Controllers
             }
 
             user.PasswordHash = model.NewPassword;
+
             var success = await _userService.UpdateUserAsync(user);
 
             if (success)
@@ -86,6 +91,32 @@ namespace MentorEval.Controllers
 
             ModelState.AddModelError("", "Greška pri spremanju. Pokušajte ponovo.");
             return View(model);
+        }
+
+        public IActionResult RequestPasswordReset()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RequestPasswordReset(string email)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+            var user = await _userService.GetUserByIdAsync(userId);
+
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+
+            var tokenService = new TokenService(new PasswordResetTokenStrategy());
+            var resetToken = tokenService.GenerateToken();
+
+            EmailService.Instance.SendPasswordResetEmail(email, resetToken);
+
+            TempData["Success"] = "Link za reset lozinke poslan na email!";
+            return RedirectToAction("Index");
         }
     }
 }

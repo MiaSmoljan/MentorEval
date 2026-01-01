@@ -137,6 +137,38 @@
         .alert {
             border-radius: 10px;
         }
+
+        .forgot-password {
+            text-align: right;
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+            .forgot-password a {
+                color: #666;
+                font-size: 0.9rem;
+                text-decoration: none;
+            }
+
+                .forgot-password a:hover {
+                    color: #0f3460;
+                    text-decoration: underline;
+                }
+
+        .debug-info {
+            background: #e8f4f8;
+            border: 1px solid #bee5eb;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+        }
+
+            .debug-info pre {
+                margin: 0;
+                white-space: pre-wrap;
+                word-break: break-all;
+            }
     </style>
 </head>
 <body>
@@ -145,6 +177,27 @@
             <div class="logo-icon">🎓</div>
         </div>
         <h1>Prijava</h1>
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success">@TempData["Success"]</div>
+        }
+
+        @if (TempData["VerificationInfo"] != null)
+        {
+            <div class="debug-info">
+                <strong>📧 Debug info (simulirani email):</strong>
+                <pre>@TempData["VerificationInfo"]</pre>
+            </div>
+        }
+
+        @if (TempData["ResetInfo"] != null)
+        {
+            <div class="debug-info">
+                <strong>🔑 Debug info (simulirani reset email):</strong>
+                <pre>@TempData["ResetInfo"]</pre>
+            </div>
+        }
 
         @if (ViewBag.Error != null)
         {
@@ -160,6 +213,10 @@
             <div class="mb-3">
                 <label for="password" class="form-label">Lozinka</label>
                 <input type="password" class="form-control" id="password" name="password" placeholder="Unesite lozinku" required>
+            </div>
+
+            <div class="forgot-password">
+                <a asp-action="ForgotPassword" asp-controller="Auth">Zaboravili ste lozinku?</a>
             </div>
 
             <button type="submit" class="btn btn-primary btn-submit">Prijavi se</button>
