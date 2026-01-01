@@ -3,13 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 using MentorEval.Interfaces;
 using MentorEval.ViewModels;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
+using MentorEval.Services;
 
 namespace MentorEval.Controllers
 {
     [Authorize] 
     public class ProfileController : Controller
     {
-        private readonly IUserService _userService;
+        private readonly IUserService _userService; 
         private readonly IPasswordService _passwordService;
 
         public ProfileController(IUserService userService, IPasswordService passwordService)
@@ -60,7 +62,7 @@ namespace MentorEval.Controllers
             {
                 return RedirectToAction("Login", "Auth");
             }
-
+            
             if (user.PasswordHash != model.CurrentPassword) 
             {
                 ModelState.AddModelError("CurrentPassword", "Trenutna lozinka nije ispravna");
