@@ -180,7 +180,6 @@ C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\staticwebassets.b
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\MentorEval.csproj.Up2Date
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\MentorEval.dll
 C:\Users\Bartol\Desktop\MentorEval\MentorEval\obj\Debug\net8.0\refint\MentorEval.dll

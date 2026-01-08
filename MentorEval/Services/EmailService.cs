@@ -1,11 +1,8 @@
 ﻿namespace MentorEval.Services
 {
-
     public sealed class EmailService
     {
         private static EmailService? _instance;
-
-        private static readonly object _lock = new object();
 
         private EmailService()
         {
@@ -16,14 +13,11 @@
         {
             get
             {
-                lock (_lock)
+                if (_instance == null)
                 {
-                    if (_instance == null)
-                    {
-                        _instance = new EmailService();
-                    }
-                    return _instance;
+                    _instance = new EmailService();
                 }
+                return _instance;
             }
         }
 

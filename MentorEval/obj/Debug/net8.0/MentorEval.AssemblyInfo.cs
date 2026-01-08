@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentorEval")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b53686e73cccf0a6c2293ca77a434e2a1b097b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c582d88bfec67784e5a46e06b30ae2906139237")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentorEval")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentorEval")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

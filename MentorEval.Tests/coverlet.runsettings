@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat Code Coverage">
+        <Configuration>
+          <Include>
+            [MentorEval]MentorEval.Services.EmailService,
+            [MentorEval]MentorEval.Services.PasswordService,
+            [MentorEval]MentorEval.Services.UserService,
+            [MentorEval]MentorEval.Services.TokenService,
+            [MentorEval]MentorEval.Services.LoggingUserServiceDecorator,
+            [MentorEval]MentorEval.Services.TokenStrategies.*,
+            [MentorEval]MentorEval.Controllers.AuthController,
+            [MentorEval]MentorEval.Controllers.ProfileController,
+            [MentorEval]MentorEval.Interfaces.ITokenStrategy,
+            [MentorEval]MentorEval.Interfaces.IUserService,
+            [MentorEval]MentorEval.Interfaces.IPasswordService
+          </Include>
+          <Exclude>
+            [*]*
+          </Exclude>
+          <IncludeTestAssembly>false</IncludeTestAssembly>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
