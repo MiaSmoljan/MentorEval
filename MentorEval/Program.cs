@@ -3,6 +3,7 @@ using MentorEval.Services;
 using MentorEval.Services.Evaluations;
 using MentorEval.Services.Evaluations.Questions;
 using MentorEval.Services.Evaluations.Validation;
+using MentorEval.Services.Security;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
@@ -33,6 +34,7 @@ builder.Services.AddScoped<IQuestionValidationStrategy, TextValidationStrategy>(
 builder.Services.AddScoped<IQuestionValidationStrategy, DropdownValidationStrategy>();
 
 builder.Services.AddScoped<IEvaluationQueryService, EvaluationQueryService>();
+builder.Services.AddScoped<ICurrentUser, CurrentUser>();
 
 
 // Add services to the container.

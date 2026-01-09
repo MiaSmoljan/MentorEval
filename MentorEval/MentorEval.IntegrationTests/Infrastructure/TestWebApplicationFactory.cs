@@ -1,4 +1,5 @@
 ﻿using MentorEval.Models;
+using MentorEval.Services.Security;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
@@ -22,6 +23,7 @@ public class TestWebApplicationFactory : WebApplicationFactory<Program>
             services.RemoveAll<DbContextOptions<AppDbContext>>();
             services.RemoveAll<DbContextOptions>();
             services.RemoveAll<IDbContextFactory<AppDbContext>>();
+            services.AddScoped<ICurrentUser, FakeCurrentUser>();
 
             _connection = new SqliteConnection("DataSource=:memory:");
             _connection.Open();
