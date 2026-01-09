@@ -181,7 +181,7 @@ public class EvaluationsControllerTests
         var list = view.Model.Should().BeAssignableTo<List<Evaluation>>().Subject;
 
         list.Should().BeSameAs(evaluations);
-        controller.ViewBag.ActiveEvaluationsCount.Should().Be(1);
+        ((int?)controller.ViewBag.ActiveEvaluationsCount).Should().Be(1);
 
         evalQuery.VerifyAll();
         courseQuery.VerifyNoOtherCalls();

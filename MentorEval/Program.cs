@@ -32,6 +32,7 @@ builder.Services.AddScoped<IQuestionValidationStrategy, YesNoValidationStrategy>
 builder.Services.AddScoped<IQuestionValidationStrategy, TextValidationStrategy>();
 builder.Services.AddScoped<IQuestionValidationStrategy, DropdownValidationStrategy>();
 
+builder.Services.AddScoped<IEvaluationQueryService, EvaluationQueryService>();
 
 
 // Add services to the container.

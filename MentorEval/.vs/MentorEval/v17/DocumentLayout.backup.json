@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}|MentorEval.UnitTests\\MentorEval.UnitTests.csproj|solutionrelative:mentoreval.unittests\\controllers\\evaluationscontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76362395-A14F-8688-29DC-64E6A9C06A8B}|MentorEval.IntegrationTests\\MentorEval.IntegrationTests.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\mentoreval.integrationtests\\infrastructure\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76362395-A14F-8688-29DC-64E6A9C06A8B}|MentorEval.IntegrationTests\\MentorEval.IntegrationTests.csproj|solutionrelative:mentoreval.integrationtests\\infrastructure\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\services\\evaluations\\ievaluationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\evaluations\\ievaluationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{76362395-A14F-8688-29DC-64E6A9C06A8B}|MentorEval.IntegrationTests\\MentorEval.IntegrationTests.csproj|solutionrelative:mentoreval.integrationtests\\infrastructure\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76362395-A14F-8688-29DC-64E6A9C06A8B}|MentorEval.IntegrationTests\\MentorEval.IntegrationTests.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\mentoreval.integrationtests\\infrastructure\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76362395-A14F-8688-29DC-64E6A9C06A8B}|MentorEval.IntegrationTests\\MentorEval.IntegrationTests.csproj|solutionrelative:mentoreval.integrationtests\\infrastructure\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}|MentorEval.UnitTests\\MentorEval.UnitTests.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\mentoreval.unittests\\services\\evaluationfacadetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}|MentorEval.UnitTests\\MentorEval.UnitTests.csproj|solutionrelative:mentoreval.unittests\\services\\evaluationfacadetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\desktop\\mentoreval\\mentoreval\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -240,27 +240,40 @@
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Controllers\\EvaluationsControllerTest.cs",
               "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Controllers\\EvaluationsControllerTest.cs",
               "RelativeToolTip": "MentorEval.UnitTests\\Controllers\\EvaluationsControllerTest.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAADwv6sAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAADwv6cAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T23:30:19.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEvaluationQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\IEvaluationQueryService.cs",
-              "RelativeDocumentMoniker": "Services\\Evaluations\\IEvaluationQueryService.cs",
-              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\IEvaluationQueryService.cs",
-              "RelativeToolTip": "Services\\Evaluations\\IEvaluationQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TestWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
+              "RelativeToolTip": "MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:40:26.241Z",
+              "WhenOpened": "2026-01-08T03:24:16.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:52:13.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Controllers\\HomeControllerTests.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Controllers\\HomeControllerTests.cs",
@@ -268,12 +281,23 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Controllers\\HomeControllerTests.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:30:45.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T23:30:45.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IEvaluationQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\IEvaluationQueryService.cs",
+              "RelativeDocumentMoniker": "Services\\Evaluations\\IEvaluationQueryService.cs",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\IEvaluationQueryService.cs",
+              "RelativeToolTip": "Services\\Evaluations\\IEvaluationQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:40:26.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EvaluationCreationServiceTest.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Services\\Evaluations\\EvaluationCreationServiceTest.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Services\\Evaluations\\EvaluationCreationServiceTest.cs",
@@ -281,12 +305,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Services\\Evaluations\\EvaluationCreationServiceTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:26:19.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T23:26:19.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CourseQueryServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Services\\Evaluations\\CourseQueryServiceTests.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Services\\Evaluations\\CourseQueryServiceTests.cs",
@@ -294,12 +317,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Services\\Evaluations\\CourseQueryServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:25:35.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T23:25:35.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ICurrentUser.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Services\\Security\\ICurrentUser.cs",
               "RelativeDocumentMoniker": "Services\\Security\\ICurrentUser.cs",
@@ -307,12 +329,11 @@
               "RelativeToolTip": "Services\\Security\\ICurrentUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:44:35.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:44:35.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "QuestionValidationResolverTests.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Validation\\QuestionValidationResolverTests.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Validation\\QuestionValidationResolverTests.cs",
@@ -320,12 +341,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Validation\\QuestionValidationResolverTests.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T03:18:32.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:18:32.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "QuestionFactoryTests.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Questions\\QuestionFactoryTests.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Questions\\QuestionFactoryTests.cs",
@@ -333,12 +353,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Questions\\QuestionFactoryTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T03:18:24.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:18:24.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DbTestHelper.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Infrastructure\\DbTestHelper.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Infrastructure\\DbTestHelper.cs",
@@ -346,12 +365,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Infrastructure\\DbTestHelper.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:27:31.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T23:27:31.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EvaluationsControllerIT.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Controllers\\EvaluationsControllerIT.cs",
               "RelativeDocumentMoniker": "MentorEval.IntegrationTests\\Controllers\\EvaluationsControllerIT.cs",
@@ -359,12 +377,11 @@
               "RelativeToolTip": "MentorEval.IntegrationTests\\Controllers\\EvaluationsControllerIT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T05:49:32.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T05:49:32.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TestAuthHandler.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Infrastructure\\TestAuthHandler.cs",
               "RelativeDocumentMoniker": "MentorEval.IntegrationTests\\Infrastructure\\TestAuthHandler.cs",
@@ -372,25 +389,11 @@
               "RelativeToolTip": "MentorEval.IntegrationTests\\Infrastructure\\TestAuthHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T03:23:27.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:23:27.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TestWebApplicationFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
-              "RelativeDocumentMoniker": "MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
-              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
-              "RelativeToolTip": "MentorEval.IntegrationTests\\Infrastructure\\TestWebApplicationFactory.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowD0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T03:24:16.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EvaluationFacadeTests.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\MentorEval.UnitTests\\Services\\EvaluationFacadeTests.cs",
               "RelativeDocumentMoniker": "MentorEval.UnitTests\\Services\\EvaluationFacadeTests.cs",
@@ -398,12 +401,11 @@
               "RelativeToolTip": "MentorEval.UnitTests\\Services\\EvaluationFacadeTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T03:18:13.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T03:18:13.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EvaluationsController.cs",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Controllers\\EvaluationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EvaluationsController.cs",
@@ -411,12 +413,11 @@
               "RelativeToolTip": "Controllers\\EvaluationsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:54:51.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:54:51.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -424,12 +425,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T09:52:03.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:52:03.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -437,8 +437,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-09T05:10:42.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T05:10:42.181Z"
             },
             {
               "$type": "Document",
@@ -450,21 +449,7 @@
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:51:32.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Krajancic Ivan\\Desktop\\MentorEval\\MentorEval\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:52:13.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:51:32.673Z"
             },
             {
               "$type": "Document",
@@ -476,8 +461,7 @@
               "RelativeToolTip": "Services\\Security\\CurrentUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:44:49.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:44:49.718Z"
             },
             {
               "$type": "Document",
@@ -489,8 +473,7 @@
               "RelativeToolTip": "Services\\Evaluations\\EvaluationQueryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:40:46.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:40:46.036Z"
             },
             {
               "$type": "Document",
@@ -502,8 +485,7 @@
               "RelativeToolTip": "Services\\Evaluations\\ICourseQueryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:37:21.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:37:21.188Z"
             },
             {
               "$type": "Document",
@@ -515,8 +497,7 @@
               "RelativeToolTip": "Services\\Evaluations\\EvaluationFacade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:40:03.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:40:03.5Z"
             },
             {
               "$type": "Document",
@@ -528,8 +509,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\IQuestionValidationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:26:47.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:26:47.557Z"
             },
             {
               "$type": "Document",
@@ -541,8 +521,7 @@
               "RelativeToolTip": "Services\\Evaluations\\IEvaluationCreationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:21:36.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:21:36.77Z"
             },
             {
               "$type": "Document",
@@ -554,8 +533,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Questions\\DropdownQuestionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:23:09.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:23:09.98Z"
             },
             {
               "$type": "Document",
@@ -567,8 +545,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Questions\\Scale10QuestionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:23:26.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:23:26.55Z"
             },
             {
               "$type": "Document",
@@ -580,8 +557,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Questions\\TextQuestionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:23:41.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:23:41.407Z"
             },
             {
               "$type": "Document",
@@ -593,8 +569,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Questions\\YesNoQuestionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:24:10.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:24:10.819Z"
             },
             {
               "$type": "Document",
@@ -606,8 +581,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\DropdownValidationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:29:09.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:29:09.015Z"
             },
             {
               "$type": "Document",
@@ -619,8 +593,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\QuestionValidationResolver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:32:23.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:32:23.808Z"
             },
             {
               "$type": "Document",
@@ -632,8 +605,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\Scale10ValidationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:27:29.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:27:29.655Z"
             },
             {
               "$type": "Document",
@@ -645,8 +617,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\TextValidationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:28:32.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:28:32.55Z"
             },
             {
               "$type": "Document",
@@ -658,8 +629,7 @@
               "RelativeToolTip": "Services\\Evaluations\\Validation\\YesNoValidationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:28:02.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:28:02.634Z"
             },
             {
               "$type": "Document",
@@ -671,8 +641,7 @@
               "RelativeToolTip": "Services\\Evaluations\\CourseQueryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:39:14.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:39:14.939Z"
             },
             {
               "$type": "Document",
@@ -684,8 +653,7 @@
               "RelativeToolTip": "Services\\Evaluations\\EvaluationCreationService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:22:27.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:22:27.354Z"
             },
             {
               "$type": "Document",
@@ -697,8 +665,7 @@
               "RelativeToolTip": "Services\\Evaluations\\IQuestionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:21:15.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:21:15.664Z"
             },
             {
               "$type": "Document",
@@ -710,8 +677,7 @@
               "RelativeToolTip": "Services\\Evaluations\\IQuestionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:20:52.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:20:52.723Z"
             },
             {
               "$type": "Document",
@@ -723,8 +689,7 @@
               "RelativeToolTip": "Services\\Evaluations\\QuestionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:20:34.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:20:34.098Z"
             },
             {
               "$type": "Document",
@@ -736,8 +701,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACsAAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T13:57:54.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T13:57:54.593Z"
             },
             {
               "$type": "Document",
@@ -749,8 +713,7 @@
               "RelativeToolTip": "Views\\Evaluations\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T12:55:30.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:55:30.602Z"
             },
             {
               "$type": "Document",
@@ -762,8 +725,7 @@
               "RelativeToolTip": "Views\\Evaluations\\Create.cshtml",
               "ViewState": "AgIAAFkAAAAAAAAAAADwv34AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T12:56:14.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:56:14.427Z"
             },
             {
               "$type": "Document",
@@ -775,8 +737,7 @@
               "RelativeToolTip": "Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T09:57:14.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:57:14.18Z"
             },
             {
               "$type": "Document",
@@ -788,8 +749,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:59:08.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:59:08.503Z"
             },
             {
               "$type": "Document",
@@ -801,8 +761,7 @@
               "RelativeToolTip": "Services\\PdfService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:19:02.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T15:19:02.107Z"
             },
             {
               "$type": "Document",
@@ -814,8 +773,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:55:16.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:55:16.53Z"
             },
             {
               "$type": "Document",
@@ -827,8 +785,7 @@
               "RelativeToolTip": "Controllers\\ReportsController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:19:48.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T15:19:48.231Z"
             },
             {
               "$type": "Document",
@@ -840,8 +797,7 @@
               "RelativeToolTip": "coverage-report\\index.html",
               "ViewState": "AgIAAPkAAAAAAAAAAAAAABsBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-09T01:09:36.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T01:09:36.873Z"
             },
             {
               "$type": "Document",
@@ -853,8 +809,7 @@
               "RelativeToolTip": "MentorEval.UnitTests\\TestResults\\0c564190-ff0a-4aa7-b9d9-e14173cddccf\\coverage.cobertura.xml",
               "ViewState": "AgIAAJQJAAAAAAAAAAAYwLsJAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-01-09T00:50:48.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T00:50:48.021Z"
             },
             {
               "$type": "Document",
@@ -866,8 +821,7 @@
               "RelativeToolTip": "MentorEval.IntegrationTests\\TestResults\\df8e3f04-d5cb-40ec-806d-64268c61fdaa\\coverage.cobertura.xml",
               "ViewState": "AgIAAJ4JAAAAAAAAAAAnwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-01-09T00:56:24.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T00:56:24.589Z"
             },
             {
               "$type": "Document",
