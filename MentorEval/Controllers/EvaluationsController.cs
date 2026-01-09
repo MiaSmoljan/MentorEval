@@ -1,6 +1,7 @@
 ﻿using MentorEval.Models;
 using MentorEval.Models.ViewModels;
 using MentorEval.Services.Evaluations;
+using MentorEval.Services.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,45 +12,31 @@ namespace MentorEval.Controllers
     [Authorize(Roles = "Professor")]
     public class EvaluationsController : Controller
     {
-        private readonly AppDbContext _context;
-
-        private readonly IEvaluationCreationService _creation;
-
+        private readonly IEvaluationQueryService _evalQuery;
         private readonly EvaluationFacade _facade;
-        public EvaluationsController(AppDbContext context, EvaluationFacade facade)
+        private readonly ICurrentUser _currentUser;
+
+        public EvaluationsController(IEvaluationQueryService evalQuery, EvaluationFacade facade, ICurrentUser currentUser)
         {
-            _context = context;
+            _evalQuery = evalQuery;
             _facade = facade;
+            _currentUser = currentUser;
         }
 
+        private int GetCurrentProfessorId() => _currentUser.GetProfessorId(User);
 
-        private int GetCurrentProfessorId()
-        {
-            var idStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            return int.Parse(idStr);
-        }
 
         public async Task<IActionResult> Index()
         {
             int profId = GetCurrentProfessorId();
 
-            var evaluations = await _context.Evaluations
-                .Include(e => e.Course)
-                .Where(e => e.Course.ProfessorId == profId)
-                .OrderByDescending(e => e.StartAt)
-                .ToListAsync();
+            var evaluations = await _evalQuery.GetForProfessorAsync(profId);
 
             var now = DateTime.Now;
-            int activeCount = evaluations
-                .Count(e => e.Status == "Active"
-                            && e.StartAt <= now
-                            && e.EndAt >= now);
-
-            ViewBag.ActiveEvaluationsCount = activeCount;
+            ViewBag.ActiveEvaluationsCount = _evalQuery.CountActive(evaluations, now);
 
             return View(evaluations);
         }
-
 
         [HttpGet]
         public async Task<IActionResult> Create()

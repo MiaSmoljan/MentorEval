@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorEval", "MentorEval.csproj", "{33A1B365-4230-4CD5-A83E-74B527ADB522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorEval.IntegrationTests", "MentorEval.IntegrationTests\MentorEval.IntegrationTests.csproj", "{76362395-A14F-8688-29DC-64E6A9C06A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorEval.UnitTests", "MentorEval.UnitTests\MentorEval.UnitTests.csproj", "{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{33A1B365-4230-4CD5-A83E-74B527ADB522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A1B365-4230-4CD5-A83E-74B527ADB522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A1B365-4230-4CD5-A83E-74B527ADB522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76362395-A14F-8688-29DC-64E6A9C06A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76362395-A14F-8688-29DC-64E6A9C06A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76362395-A14F-8688-29DC-64E6A9C06A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76362395-A14F-8688-29DC-64E6A9C06A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B68AB63-B7F9-AA85-0A7A-2ECBE4DE18B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

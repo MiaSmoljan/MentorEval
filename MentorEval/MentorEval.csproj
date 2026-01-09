@@ -4,15 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.22" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.22">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="QuestPDF" Version="2025.7.4" />
+    <Compile Remove="MentorEval.IntegrationTests\**" />
+    <Compile Remove="MentorEval.UnitTests\**" />
+    <Content Remove="MentorEval.IntegrationTests\**" />
+    <Content Remove="MentorEval.UnitTests\**" />
+    <EmbeddedResource Remove="MentorEval.IntegrationTests\**" />
+    <EmbeddedResource Remove="MentorEval.UnitTests\**" />
+    <None Remove="MentorEval.IntegrationTests\**" />
+    <None Remove="MentorEval.UnitTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="QuestPDF" Version="2025.12.1" />
   </ItemGroup>
 
 </Project>

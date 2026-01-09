@@ -2,9 +2,11 @@
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MentorEval.Services
 {
+    [ExcludeFromCodeCoverage]
     public class PdfService
     {
         public byte[] GenerateProfessorEvaluationsReport(List<Evaluation> evaluations)

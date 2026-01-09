@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MentorEval.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using MentorEval.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.CodeAnalysis;
 using System.Security.Claims;
 
 namespace MentorEval.Controllers
 {
+    [ExcludeFromCodeCoverage]
     public class AuthController : Controller
     {
         private readonly AppDbContext _context;

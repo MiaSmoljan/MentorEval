@@ -3,10 +3,12 @@ using MentorEval.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 using System.Security.Claims;
 
 namespace MentorEval.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [Authorize(Roles = "Professor")]
     public class ReportsController : Controller
     {

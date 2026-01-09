@@ -1,0 +1,24 @@
+<Project>
+  <PropertyGroup>
+    <IsTestProject Condition="'$(MSBuildProjectName)'=='MentorEval.UnitTests' Or '$(MSBuildProjectName)'=='MentorEval.IntegrationTests'">true</IsTestProject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(IsTestProject)'=='true'">
+    <!-- Coverage -->
+    <CollectCoverage>true</CollectCoverage>
+    <CoverletOutputFormat>cobertura</CoverletOutputFormat>
+    <CoverletOutput>$(MSBuildProjectDirectory)/TestResults/</CoverletOutput>
+
+    <!-- Coverage gate -->
+    <Threshold>80</Threshold>
+    <ThresholdType>line,branch,method</ThresholdType>
+    <ThresholdStat>total</ThresholdStat>
+
+    <!-- Nije dio modula -->
+    <ExcludeByFile>
+      **/Auth/*;
+      **/Reports/*;
+      **/Pdf/*;
+    </ExcludeByFile>
+  </PropertyGroup>
+</Project>
