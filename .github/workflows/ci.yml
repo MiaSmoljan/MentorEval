@@ -18,14 +18,20 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Restore main project
+      run: dotnet restore MentorEval/MentorEval.csproj
 
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Restore test project
+      run: dotnet restore MentorEval.Tests/MentorEval.Tests.csproj
+
+    - name: Build main project
+      run: dotnet build MentorEval/MentorEval.csproj --no-restore
+
+    - name: Build test project
+      run: dotnet build MentorEval.Tests/MentorEval.Tests.csproj --no-restore
 
     - name: Test with Coverage
-      run: dotnet test --no-build --collect:"XPlat Code Coverage" --results-directory ./coverage
+      run: dotnet test MentorEval.Tests/MentorEval.Tests.csproj --no-build --collect:"XPlat Code Coverage" --results-directory ./coverage
 
     - name: Upload Coverage Report
       uses: actions/upload-artifact@v4
