@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\downloads\\mentoreval_merged\\mentoreval\\wwwroot\\js\\evaluations-create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:wwwroot\\js\\evaluations-create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\downloads\\mentoreval_merged\\mentoreval\\views\\evaluations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\evaluations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\krajancic ivan\\downloads\\mentoreval_merged\\mentoreval\\views\\evaluations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\evaluations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "evaluations-create.js",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\wwwroot\\js\\evaluations-create.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\evaluations-create.js",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\wwwroot\\js\\evaluations-create.js",
+              "RelativeToolTip": "wwwroot\\js\\evaluations-create.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-22T01:46:19.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\Views\\Evaluations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Evaluations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\Views\\Evaluations\\Create.cshtml",
+              "RelativeToolTip": "Views\\Evaluations\\Create.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T01:43:30.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\Views\\Evaluations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Evaluations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\Views\\Evaluations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Evaluations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T01:43:29.354Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

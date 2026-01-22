@@ -1,0 +1,49 @@
+﻿@model List<MentorEval.Models.Evaluation>
+@{
+    ViewData["Title"] = "Moje evaluacije";
+    var answered = ViewBag.AnsweredEvalIds as List<int> ?? new();
+}
+
+<h2>Moje evaluacije</h2>
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-info">@TempData["Msg"]</div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Naslov</th>
+            <th>Kolegij</th>
+            <th>Period</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            var isAnswered = answered.Contains(e.Id);
+            <tr>
+                <td>@e.Title</td>
+                <td>@(e.Course?.Name)</td>
+                <td>@e.StartAt.ToString("dd.MM.yyyy") - @e.EndAt.ToString("dd.MM.yyyy")</td>
+                <td class="text-end">
+                    @if (isAnswered)
+                    {
+                        <span class="badge bg-success">Ispunjeno</span>
+                    }
+                    else
+                    {
+                        <a class="btn btn-primary btn-sm"
+                           asp-controller="StudentEvaluations"
+                           asp-action="Fill"
+                           asp-route-id="@e.Id">
+                            Ispuni
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
