@@ -1,0 +1,6 @@
+projectKey=MentorEval
+serverUrl=http://localhost:9002
+serverVersion=9.9.8.100196
+dashboardUrl=http://localhost:9002/dashboard?id=MentorEval
+ceTaskId=AZvolpY2-fXmHLWsWyBI
+ceTaskUrl=http://localhost:9002/api/ce/task?id=AZvolpY2-fXmHLWsWyBI

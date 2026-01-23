@@ -5,7 +5,7 @@ namespace MentorEval.Services.Evaluations
 {
     public class QuestionFactory : IQuestionFactory
     {
-        private readonly IReadOnlyDictionary<string, IQuestionHandler> _handlers;
+        private readonly Dictionary<string, IQuestionHandler> _handlers;
 
         public QuestionFactory(IEnumerable<IQuestionHandler> handlers)
             => _handlers = handlers.ToDictionary(h => h.Type, h => h);

@@ -76,7 +76,7 @@ namespace MentorEval.Controllers
             var user = new User
             {
                 Username = username,
-                PasswordHash = password, // TODO: hashirati lozinku
+                PasswordHash = password,
                 FullName = fullName,
                 Role = role ?? "Student",
                 Discriminator = role ?? "Student"

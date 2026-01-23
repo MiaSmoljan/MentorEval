@@ -16,29 +16,58 @@ public class StudentEvaluationsController : Controller
     private int GetStudentId()
     {
         var idStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        return int.Parse(idStr);
+
+        if (!int.TryParse(idStr, out var id))
+            throw new UnauthorizedAccessException("Invalid or missing user id claim.");
+
+        return id;
     }
 
-    // LISTA evaluacija koje student može ispuniti
+    private static bool IsEvaluationOpen(Evaluation eval, DateTime now)
+        => eval.Status != "Draft" && eval.StartAt <= now && now <= eval.EndAt;
+
+    private static bool StudentHasAccess(Evaluation eval, int studentId)
+        => eval.Students.Count == 0 || eval.Students.Any(s => s.Id == studentId);
+
+    private async Task<bool> AlreadyAnsweredAsync(int evaluationId, int studentId)
+        => await _db.Answers.AnyAsync(a => a.EvaluationId == evaluationId && a.StudentId == studentId);
+
+    private void ValidateRequiredAnswers(StudentEvaluationFillViewModel vm)
+    {
+        foreach (var q in vm.Questions)
+        {
+            if (!q.Required) continue;
+
+            if (q.Type == "Scale10" && !q.Grade.HasValue)
+                ModelState.AddModelError("", $"Obavezno pitanje: \"{q.Text}\" (ocjena 1-10).");
+
+            if (q.Type == "Text" && string.IsNullOrWhiteSpace(q.AnswerText))
+                ModelState.AddModelError("", $"Obavezno pitanje: \"{q.Text}\" (komentar).");
+        }
+    }
+    private static ForbidResult? GuardEvaluation(Evaluation eval, int studentId, DateTime now)
+    {
+        if (!IsEvaluationOpen(eval, now)) return new ForbidResult();
+        if (!StudentHasAccess(eval, studentId)) return new ForbidResult();
+        return null;
+    }
+
     [HttpGet]
     public async Task<IActionResult> Index()
     {
         int studentId = GetStudentId();
         var now = DateTime.Now;
 
-        // Ako imate assignment (EvaluationStudent), prikazat će se samo dodijeljene.
-        // Ako NEMA dodijeljenih (0 students), evaluacija je "open for all".
         var evaluations = await _db.Evaluations
             .Include(e => e.Course)
             .Include(e => e.Students)
             .Where(e =>
                 e.Status != "Draft" &&
                 e.StartAt <= now && now <= e.EndAt &&
-                (e.Students.Any(s => s.Id == studentId) || !e.Students.Any()))
+                (e.Students.Any(s => s.Id == studentId) || e.Students.Count == 0))
             .OrderByDescending(e => e.StartAt)
             .ToListAsync();
 
-        // da označimo koje su već riješene
         var answeredEvalIds = await _db.Answers
             .Where(a => a.StudentId == studentId)
             .Select(a => a.EvaluationId)
@@ -50,7 +79,6 @@ public class StudentEvaluationsController : Controller
         return View(evaluations);
     }
 
-    // PRIKAZ forme
     [HttpGet]
     public async Task<IActionResult> Fill(int id)
     {
@@ -65,17 +93,10 @@ public class StudentEvaluationsController : Controller
 
         if (eval == null) return NotFound();
 
-        // dostupnost
-        if (eval.Status == "Draft" || now < eval.StartAt || now > eval.EndAt)
-            return Forbid();
+        var guard = GuardEvaluation(eval, studentId, now);
+        if (guard != null) return guard;
 
-        // assignment (ako postoji)
-        if (eval.Students.Any() && !eval.Students.Any(s => s.Id == studentId))
-            return Forbid();
-
-        // zabrani duplo ispunjavanje
-        bool alreadyAnswered = await _db.Answers.AnyAsync(a => a.EvaluationId == id && a.StudentId == studentId);
-        if (alreadyAnswered)
+        if (await AlreadyAnsweredAsync(id, studentId))
         {
             TempData["Msg"] = "Već ste ispunili ovu evaluaciju.";
             return RedirectToAction(nameof(Index));
@@ -103,7 +124,6 @@ public class StudentEvaluationsController : Controller
         return View(vm);
     }
 
-    // SUBMIT forme
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Fill(StudentEvaluationFillViewModel vm)
@@ -118,47 +138,37 @@ public class StudentEvaluationsController : Controller
 
         if (eval == null) return NotFound();
 
-        if (eval.Status == "Draft" || now < eval.StartAt || now > eval.EndAt)
-            return Forbid();
+        var guard = GuardEvaluation(eval, studentId, now);
+        if (guard != null) return guard;
 
-        if (eval.Students.Any() && !eval.Students.Any(s => s.Id == studentId))
-            return Forbid();
-
-        bool alreadyAnswered = await _db.Answers.AnyAsync(a => a.EvaluationId == eval.Id && a.StudentId == studentId);
-        if (alreadyAnswered)
+        if (await AlreadyAnsweredAsync(eval.Id, studentId))
         {
             TempData["Msg"] = "Već ste ispunili ovu evaluaciju.";
             return RedirectToAction(nameof(Index));
         }
 
-        // VALIDACIJA required polja
-        foreach (var q in vm.Questions)
-        {
-            if (!q.Required) continue;
-
-            if (q.Type == "Scale10" && !q.Grade.HasValue)
-                ModelState.AddModelError("", $"Obavezno pitanje: \"{q.Text}\" (ocjena 1-10).");
-
-            if (q.Type == "Text" && string.IsNullOrWhiteSpace(q.AnswerText))
-                ModelState.AddModelError("", $"Obavezno pitanje: \"{q.Text}\" (komentar).");
-        }
+        ValidateRequiredAnswers(vm);
 
         if (!ModelState.IsValid)
         {
-            // popuni title/course za view ako se vraćamo na formu
             vm.Title = eval.Title;
-            vm.CourseName = (await _db.Courses.Where(c => c.Id == eval.CourseId).Select(c => c.Name).FirstAsync());
+
+            vm.CourseName = await _db.Courses
+                .Where(c => c.Id == eval.CourseId)
+                .Select(c => c.Name)
+                .FirstAsync();
+
             vm.StartAt = eval.StartAt;
             vm.EndAt = eval.EndAt;
+
             return View(vm);
         }
 
-        // SPREMANJE answer-a
         foreach (var q in vm.Questions)
         {
-            // opcionalna pitanja: ako ništa nije uneseno, preskoči
             bool emptyScale = q.Type == "Scale10" && !q.Grade.HasValue;
             bool emptyText = q.Type == "Text" && string.IsNullOrWhiteSpace(q.AnswerText);
+
             if (!q.Required && (emptyScale || emptyText))
                 continue;
 

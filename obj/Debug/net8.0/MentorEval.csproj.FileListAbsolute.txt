@@ -179,10 +179,10 @@ C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\MentorEval.csproj.Up2Date
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\MentorEval.dll
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\refint\MentorEval.dll
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\MentorEval.pdb
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\MentorEval.genruntimeconfig.cache
 C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\ref\MentorEval.dll
+C:\Users\Krajancic Ivan\Downloads\MentorEval_merged\MentorEval\obj\Debug\net8.0\MentorEval.sourcelink.json
