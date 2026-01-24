@@ -3,116 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\coverlet.runsettings||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\mentoreval.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\services\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\services\\tokenservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\controllers\\profilecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\services\\logginguserservicedecoratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\strategies\\passwordresettokenstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\strategies\\verificationtokenstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\services\\passwordservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\services\\emailservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40D3221D-3236-4E48-A5A2-1DAED37CB3F7}|..\\MentorEval.Tests\\MentorEval.Tests.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\logginguserservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\logginguserservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\tokenstrategies\\passwordresettokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\tokenstrategies\\passwordresettokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\tokenstrategies\\verificationtokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\tokenstrategies\\verificationtokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\interfaces\\itokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:interfaces\\itokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\evaluationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\evaluationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\models\\viewmodels\\evaluationcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:models\\viewmodels\\evaluationcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\evaluations\\evaluationcreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\evaluations\\evaluationcreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\mentoreval.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:mentoreval.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\interfaces\\itokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:interfaces\\itokenstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,24 +95,12 @@
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|solutionrelative:views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33A1B365-4230-4CD5-A83E-74B527ADB522}|MentorEval.csproj|c:\\users\\bartol\\desktop\\mentoreval\\mentoreval\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -158,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,376 +134,246 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "coverlet.runsettings",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\coverlet.runsettings",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\coverlet.runsettings",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\coverlet.runsettings",
-              "RelativeToolTip": "..\\MentorEval.Tests\\coverlet.runsettings",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-08T20:24:11.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T20:16:28.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MentorEval.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\MentorEval.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\MentorEval.Tests.csproj",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\MentorEval.Tests.csproj",
-              "RelativeToolTip": "..\\MentorEval.Tests\\MentorEval.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-08T20:14:59.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoggingUserServiceDecoratorTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\LoggingUserServiceDecoratorTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Services\\LoggingUserServiceDecoratorTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\LoggingUserServiceDecoratorTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Services\\LoggingUserServiceDecoratorTests.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T20:08:06.713Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "VerificationTokenStrategyTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Strategies\\VerificationTokenStrategyTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Strategies\\VerificationTokenStrategyTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Strategies\\VerificationTokenStrategyTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Strategies\\VerificationTokenStrategyTests.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwDgAAAABAAAAAAAAAA==",
+              "Title": "PdfService.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\PdfService.cs",
+              "RelativeDocumentMoniker": "Services\\PdfService.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\PdfService.cs",
+              "RelativeToolTip": "Services\\PdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:36:59.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PasswordResetTokenStrategyTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Strategies\\PasswordResetTokenStrategyTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Strategies\\PasswordResetTokenStrategyTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Strategies\\PasswordResetTokenStrategyTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Strategies\\PasswordResetTokenStrategyTests.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:36:49.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\TokenServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Services\\TokenServiceTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\TokenServiceTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Services\\TokenServiceTests.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAmwFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:35:18.778Z"
+              "WhenOpened": "2026-01-17T16:04:00.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "PasswordServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\PasswordServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Services\\PasswordServiceTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\PasswordServiceTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Services\\PasswordServiceTests.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAuwGsAAAA4AAAAAAAAAA==",
+              "Title": "EvaluationCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\ViewModels\\EvaluationCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\EvaluationCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\ViewModels\\EvaluationCreateViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\EvaluationCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:34:59.393Z"
+              "WhenOpened": "2026-01-17T16:03:48.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Controllers\\AuthControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Controllers\\AuthControllerTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Controllers\\AuthControllerTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Controllers\\AuthControllerTests.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAWwIUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "EvaluationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\EvaluationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EvaluationsController.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\EvaluationsController.cs",
+              "RelativeToolTip": "Controllers\\EvaluationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:35:39.376Z"
+              "WhenOpened": "2026-01-17T16:03:37.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProfileControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Controllers\\ProfileControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Controllers\\ProfileControllerTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Controllers\\ProfileControllerTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Controllers\\ProfileControllerTests.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAmwMMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:35:46.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\UserServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Services\\UserServiceTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\UserServiceTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Services\\UserServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:35:11.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\PasswordService.cs",
-              "RelativeDocumentMoniker": "Services\\PasswordService.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\PasswordService.cs",
-              "RelativeToolTip": "Services\\PasswordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:37:58.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmailServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\EmailServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\Services\\EmailServiceTests.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\Services\\EmailServiceTests.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\Services\\EmailServiceTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:34:47.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\MentorEval.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\MentorEval.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T17:50:15.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\EmailService.cs",
-              "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:36:24.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:40:14.982Z"
+              "WhenOpened": "2026-01-17T15:17:15.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PasswordResetTokenStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenStrategies\\PasswordResetTokenStrategy.cs",
-              "RelativeDocumentMoniker": "Services\\TokenStrategies\\PasswordResetTokenStrategy.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenStrategies\\PasswordResetTokenStrategy.cs",
-              "RelativeToolTip": "Services\\TokenStrategies\\PasswordResetTokenStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:39:03.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "VerificationTokenStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenStrategies\\VerificationTokenStrategy.cs",
-              "RelativeDocumentMoniker": "Services\\TokenStrategies\\VerificationTokenStrategy.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenStrategies\\VerificationTokenStrategy.cs",
-              "RelativeToolTip": "Services\\TokenStrategies\\VerificationTokenStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:38:26.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\TokenService.cs",
-              "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:39:19.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoggingUserServiceDecorator.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\LoggingUserServiceDecorator.cs",
-              "RelativeDocumentMoniker": "Services\\LoggingUserServiceDecorator.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\LoggingUserServiceDecorator.cs",
-              "RelativeToolTip": "Services\\LoggingUserServiceDecorator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:39:42.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:37:21.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAlwMEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T16:48:06.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ITokenStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\ITokenStrategy.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ITokenStrategy.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\ITokenStrategy.cs",
-              "RelativeToolTip": "Interfaces\\ITokenStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:37:53.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwF8AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T10:44:58.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:41:26.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 12,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
               "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ProfileController.cs",
               "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwHMAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:39:27.146Z"
+              "WhenOpened": "2026-01-17T11:09:02.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAlwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T16:49:52.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T17:07:05.459Z"
+              "WhenOpened": "2026-01-17T11:08:46.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeToolTip": "Views\\Profile\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:41:08.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 5,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\ForgotPassword.cshtml",
               "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeToolTip": "Views\\Auth\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T16:44:27.414Z"
+              "WhenOpened": "2026-01-01T16:44:27.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:49:02.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T16:31:58.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T16:31:53.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EvaluationCreationService.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\EvaluationCreationService.cs",
+              "RelativeDocumentMoniker": "Services\\Evaluations\\EvaluationCreationService.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\Evaluations\\EvaluationCreationService.cs",
+              "RelativeToolTip": "Services\\Evaluations\\EvaluationCreationService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:04:59.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowH0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:33:51.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:09:18.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:08:55.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:03:27.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITokenStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\ITokenStrategy.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITokenStrategy.cs",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\ITokenStrategy.cs",
+              "RelativeToolTip": "Interfaces\\ITokenStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:59:11.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MentorEval.csproj",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\MentorEval.csproj",
+              "RelativeDocumentMoniker": "MentorEval.csproj",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\MentorEval.csproj",
+              "RelativeToolTip": "MentorEval.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-17T11:07:01.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:41:08.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
@@ -559,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -571,7 +397,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 15,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T08:45:50.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IPasswordService.cs",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Interfaces\\IPasswordService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IPasswordService.cs",
@@ -583,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 20,
               "Title": "ChangePasswordViewMOdel.cs",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\ViewModels\\ChangePasswordViewMOdel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ChangePasswordViewMOdel.cs",
@@ -595,19 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "Controllers\\ReportsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:03:27.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -619,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -631,19 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:45:50.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 22,
               "Title": "UserProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\ViewModels\\UserProfileViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserProfileViewModel.cs",
@@ -652,18 +466,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T08:38:49.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T08:49:02.944Z"
             }
           ]
         }

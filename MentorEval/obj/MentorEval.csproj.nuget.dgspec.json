@@ -64,6 +64,10 @@
             "QuestPDF": {
               "target": "Package",
               "version": "[2025.7.4, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "target": "Package",
+              "version": "[9.32.0.97167, )"
             }
           },
           "imports": [

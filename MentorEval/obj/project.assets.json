@@ -994,6 +994,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.32.0.97167": {
+        "type": "package"
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -3090,6 +3093,27 @@
         "runtimes/win-x86/native/zlib1.dll"
       ]
     },
+    "SonarAnalyzer.CSharp/9.32.0.97167": {
+      "sha512": "Yxk86RV+8ynJpUhku1Yw2hITFmnmXKkXJ73cIFSy85ol5SnWREQg9RuTyV8nI7V7+pyLKpCfRmD7P0widsgjkg==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.32.0.97167",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.ShimLayer.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.32.0.97167.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -4192,7 +4216,8 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.22",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.22",
-      "QuestPDF >= 2025.7.4"
+      "QuestPDF >= 2025.7.4",
+      "SonarAnalyzer.CSharp >= 9.32.0.97167"
     ]
   },
   "packageFolders": {
@@ -4259,6 +4284,10 @@
           "QuestPDF": {
             "target": "Package",
             "version": "[2025.7.4, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "target": "Package",
+            "version": "[9.32.0.97167, )"
           }
         },
         "imports": [

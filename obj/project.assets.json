@@ -4196,23 +4196,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krajancic Ivan\\.nuget\\packages\\": {},
+    "C:\\Users\\Bartol\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\MentorEval.csproj",
+      "projectUniqueName": "C:\\Users\\Bartol\\Desktop\\mentor\\MentorEval\\MentorEval.csproj",
       "projectName": "MentorEval",
-      "projectPath": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\MentorEval.csproj",
-      "packagesPath": "C:\\Users\\Krajancic Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krajancic Ivan\\Downloads\\MentorEval_merged\\MentorEval\\obj\\",
+      "projectPath": "C:\\Users\\Bartol\\Desktop\\mentor\\MentorEval\\MentorEval.csproj",
+      "packagesPath": "C:\\Users\\Bartol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bartol\\Desktop\\mentor\\MentorEval\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Krajancic Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bartol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4221,6 +4221,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4279,7 +4280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

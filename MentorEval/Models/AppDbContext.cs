@@ -136,8 +136,6 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.Username).HasMaxLength(50);
         });
 
-        OnModelCreatingPartial(modelBuilder);
     }
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

@@ -6,19 +6,17 @@ namespace MentorEval.Controllers
     {
         public IActionResult Index()
         {
-            if (User.Identity.IsAuthenticated)
-            {
+            if (User.Identity?.IsAuthenticated == true)
                 return RedirectToAction("Dashboard");
-            }
+
             return View();
         }
 
         public IActionResult Dashboard()
         {
-            if (!User.Identity.IsAuthenticated)
-            {
+            if (User.Identity?.IsAuthenticated != true)
                 return RedirectToAction("Login", "Auth");
-            }
+
             return View();
         }
     }

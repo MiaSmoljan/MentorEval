@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DXxCSiBYUlo=",
+  "dgSpecHash": "th4bbh1dnio=",
   "success": true,
   "projectFilePath": "C:\\Users\\Bartol\\Desktop\\MentorEval\\MentorEval\\MentorEval.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\Bartol\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Bartol\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Bartol\\.nuget\\packages\\questpdf\\2025.7.4\\questpdf.2025.7.4.nupkg.sha512",
+    "C:\\Users\\Bartol\\.nuget\\packages\\sonaranalyzer.csharp\\9.32.0.97167\\sonaranalyzer.csharp.9.32.0.97167.nupkg.sha512",
     "C:\\Users\\Bartol\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\Bartol\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Bartol\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

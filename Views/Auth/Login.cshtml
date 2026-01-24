@@ -2,142 +2,17 @@
     ViewData["Title"] = "Prijava";
     Layout = null;
 }
-
 <!DOCTYPE html>
 <html lang="hr">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prijava - MentorEval</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .auth-card {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 50px 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            width: 100%;
-            max-width: 420px;
-        }
-
-            .auth-card .logo {
-                text-align: center;
-                margin-bottom: 30px;
-            }
-
-            .auth-card .logo-icon {
-                font-size: 3rem;
-                margin-bottom: 10px;
-            }
-
-            .auth-card h1 {
-                color: #1a1a2e;
-                font-weight: 700;
-                font-size: 1.8rem;
-                text-align: center;
-                margin-bottom: 30px;
-            }
-
-        .form-label {
-            color: #1a1a2e;
-            font-weight: 600;
-        }
-
-        .form-control {
-            border-radius: 10px;
-            padding: 12px 15px;
-            border: 2px solid #e0e0e0;
-            transition: all 0.3s;
-        }
-
-            .form-control:focus {
-                border-color: #0f3460;
-                box-shadow: 0 0 0 3px rgba(15, 52, 96, 0.1);
-            }
-
-        .btn-submit {
-            background: #1a1a2e;
-            border: none;
-            padding: 14px;
-            font-size: 1.1rem;
-            border-radius: 10px;
-            width: 100%;
-            margin-top: 20px;
-            transition: all 0.3s;
-        }
-
-            .btn-submit:hover {
-                background: #0f3460;
-                transform: translateY(-2px);
-            }
-
-        .divider {
-            text-align: center;
-            margin: 25px 0;
-            color: #999;
-            position: relative;
-        }
-
-            .divider::before,
-            .divider::after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                width: 40%;
-                height: 1px;
-                background: #e0e0e0;
-            }
-
-            .divider::before {
-                left: 0;
-            }
-
-            .divider::after {
-                right: 0;
-            }
-
-        .auth-link {
-            text-align: center;
-            color: #666;
-        }
-
-            .auth-link a {
-                color: #0f3460;
-                font-weight: 600;
-                text-decoration: none;
-            }
-
-                .auth-link a:hover {
-                    text-decoration: underline;
-                }
-
-        .back-link {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-            .back-link a {
-                color: #999;
-                text-decoration: none;
-                font-size: 0.9rem;
-            }
-
-                .back-link a:hover {
-                    color: #0f3460;
-                }
-
-        .alert {
-            border-radius: 10px;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/auth.css" />
 </head>
 <body>
     <div class="auth-card">
@@ -145,34 +20,30 @@
             <div class="logo-icon">🎓</div>
         </div>
         <h1>Prijava</h1>
-
         @if (ViewBag.Error != null)
         {
             <div class="alert alert-danger">@ViewBag.Error</div>
         }
-
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success">@TempData["Success"]</div>
+        }
         <form method="post" asp-action="Login" asp-controller="Auth">
+            @Html.AntiForgeryToken()
             <div class="mb-3">
                 <label for="username" class="form-label">Korisničko ime</label>
-                <input type="text" class="form-control" id="username" name="username" placeholder="Unesite korisničko ime" required>
+                <input type="text" class="form-control" id="username" name="username" required>
             </div>
-
             <div class="mb-3">
                 <label for="password" class="form-label">Lozinka</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Unesite lozinku" required>
+                <input type="password" class="form-control" id="password" name="password" required>
             </div>
-
-            <button type="submit" class="btn btn-primary btn-submit">Prijavi se</button>
+            <button type="submit" class="btn btn-submit">Prijavi se</button>
         </form>
-
         <div class="divider">ili</div>
-
-        <p class="auth-link">
-            Nemate račun? <a asp-action="Register" asp-controller="Auth">Registrirajte se</a>
-        </p>
-
-        <div class="back-link">
-            <a asp-action="Index" asp-controller="Home">← Povratak na početnu</a>
+        <div class="auth-link">
+            <p>Nemate račun? <a asp-action="Register">Registrirajte se</a></p>
+            <p><a asp-action="ForgotPassword">Zaboravili ste lozinku?</a></p>
         </div>
     </div>
 </body>

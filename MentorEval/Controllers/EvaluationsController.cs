@@ -13,7 +13,6 @@ namespace MentorEval.Controllers
     {
         private readonly AppDbContext _context;
 
-        private readonly IEvaluationCreationService _creation;
 
         private readonly EvaluationFacade _facade;
         public EvaluationsController(AppDbContext context, EvaluationFacade facade)

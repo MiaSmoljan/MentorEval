@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.22",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.22",
-          "QuestPDF": "2025.7.4"
+          "QuestPDF": "2025.7.4",
+          "SonarAnalyzer.CSharp": "9.32.0.97167"
         },
         "runtime": {
           "MentorEval.dll": {}
@@ -758,6 +759,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.32.0.97167": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1326,6 +1328,13 @@
       "sha512": "sha512-XeiWilwLnqP2BIvDG+vh1+fjUoNWczPee5qifw8VppVOH7+vmxgoxG/KANcKftgqAfXiRQ++sXOSLPZRvXxD2g==",
       "path": "questpdf/2025.7.4",
       "hashPath": "questpdf.2025.7.4.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/9.32.0.97167": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yxk86RV+8ynJpUhku1Yw2hITFmnmXKkXJ73cIFSy85ol5SnWREQg9RuTyV8nI7V7+pyLKpCfRmD7P0widsgjkg==",
+      "path": "sonaranalyzer.csharp/9.32.0.97167",
+      "hashPath": "sonaranalyzer.csharp.9.32.0.97167.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

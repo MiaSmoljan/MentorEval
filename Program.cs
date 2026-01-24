@@ -6,6 +6,7 @@ using MentorEval.Services.Evaluations.Validation;
 using MentorEval.Services.Security;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,14 +58,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
         options.Cookie.HttpOnly = true;
         options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-        options.Cookie.SameSite = SameSiteMode.Lax;
+        options.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Lax;
     });
 
 builder.Services.AddAntiforgery(o =>
 {
     o.Cookie.SecurePolicy = CookieSecurePolicy.Always;
     o.Cookie.HttpOnly = true;
-    o.Cookie.SameSite = SameSiteMode.Strict;
+    o.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
 });
 
 var app = builder.Build();
@@ -72,14 +73,16 @@ var app = builder.Build();
 // Basic security headers (no functional impact)
 app.Use(async (context, next) =>
 {
-    if (context.Request.IsHttps)
-        context.Response.Headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains";
+    var headers = context.Response.Headers;
 
-    context.Response.Headers["X-Frame-Options"] = "DENY";
-    context.Response.Headers["X-Content-Type-Options"] = "nosniff";
-    context.Response.Headers["Referrer-Policy"] = "no-referrer";
-    context.Response.Headers["Permissions-Policy"] = "geolocation=(), microphone=()";
-    context.Response.Headers["Content-Security-Policy"] =
+    if (context.Request.IsHttps)
+        headers[HeaderNames.StrictTransportSecurity] = "max-age=31536000; includeSubDomains";
+
+    headers[HeaderNames.XFrameOptions] = "DENY";
+    headers[HeaderNames.XContentTypeOptions] = "nosniff";
+    headers["Referrer-Policy"] = "no-referrer";
+    headers["Permissions-Policy"] = "geolocation=(), microphone=()"; // nema konstante u svim verzijama
+    headers[HeaderNames.ContentSecurityPolicy] =
         "default-src 'self'; " +
         "object-src 'none'; " +
         "frame-ancestors 'none'; " +
@@ -116,6 +119,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+await app.RunAsync();
 
-public partial class Program { }
+public partial class Program
+{
+    private Program() { }
+}
